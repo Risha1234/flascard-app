@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is a closure in JavaScript?",
+    "answer": "A closure is a function that remembers variables from its lexical scope even when executed outside that scope."
+  },
+  {
+    "question": "What is the difference between var, let and const?",
+    "answer": "`var` is function-scoped. `let` and `const` are block-scoped. `const` cannot be reassigned."
+  },
+  {
+    "question": "What are arrow functions?",
+    "answer": "Arrow functions are a concise way to write functions and do not bind their own `this`."
+  },
+  {
+    "question": "Explain destructuring in JavaScript.",
+    "answer": "Destructuring allows you to unpack values from arrays or properties from objects into distinct variables."
+  },
+  {
+    "question": "What is the spread operator?",
+    "answer": "The spread operator (`...`) expands an iterable (like an array) into individual elements."
+  },
+  {
+    "question": "What are template literals?",
+    "answer": "Template literals use backticks and allow interpolation: `Hello, ${name}`."
+  },
+  {
+    "question": "What is a Promise in JavaScript?",
+    "answer": "A Promise represents a value that may be available now, later, or never. It helps handle asynchronous operations."
+  },
+  {
+    "question": "What is hoisting?",
+    "answer": "Hoisting is JavaScript’s default behavior of moving declarations to the top of the current scope."
+  },
+  {
+    "question": "What is the difference between == and ===?",
+    "answer": "`==` checks for value equality with type coercion, while `===` checks for both value and type."
+  },
+  {
+    "question": "What is the use of async/await?",
+    "answer": "`async/await` allows you to write asynchronous code that looks synchronous and is easier to read."
+  }
+]
