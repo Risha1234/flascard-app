@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flashcard Project</title>
+  <link rel="stylesheet" href="flashcard.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 JS Flashcards</h1>
+    
+    <div id="flashcard" class="card">
+      <p id="card-text">Loading...</p>
+    </div>
+<div><button id="next-btn">Next </button></div>
+    <h2>Add your Own Flashcard</h2>
+<input type = "text" id="add-flashcard-q" placeholder="Add flashcard question">
+   
+    <div> <input type = "text" id="add-flashcard-a" placeholder="Add flashcard answer"></div>
+  <div><button id="submit">Submit</button></div>
+    
+
+<button id="test-mode-btn"> Test Yourself</button>
+
+<div id="test-section" style="display:none; margin-top: 20px;">
+  <p id="test-question"></p>
+  <input type="text" id="user-answer" placeholder="Type your answer here">
+  <button id="check-answer-btn">Check Answer</button>
+  <p id="feedback"></p>
+  <p id="score-display">Score: 0/0</p>
+  <button id="next-question-btn">Next</button>
+</div>
+ 
+</div>
+  <script src="flashcard.js"></script>
+</body>
+</html>
